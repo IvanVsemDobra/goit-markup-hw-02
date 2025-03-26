@@ -1,9 +1,9 @@
 
 
 body {
-    font-family: var(--font-family);
-    color: #fff;
-    background: var(--white);
+    font-family:"Roboto",sans-serif;
+    color:#434455;
+    background: #FFFFFF;
 }
 
 head{
@@ -19,7 +19,7 @@ head{
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
-   
+}
 .bootton
 border-radius: 4px;
 padding: 16px 32px;
