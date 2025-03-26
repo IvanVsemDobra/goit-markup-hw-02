@@ -1,7 +1,7 @@
 
 
 body {
-    font-family:"Roboto",sans-serif;
+    font-family:"Roboto", sans-serif;
     color:#434455;
     background: #FFFFFF;
 }
@@ -46,6 +46,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--slate);
+text-align:center;
+}
 .logo{
     display: flex;
     align-items: center;
@@ -56,5 +58,20 @@ color: var(--slate);
         height: 24px;
 }
 nav{
-    
+    font-family: "Roboto", sans-serif;
+    width: 1440px;
+    height: 72px;
+}
+.bootton,
+.link:hover,
+.link:focus {
+    color: var(--iris);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: var(--iris);
 }
