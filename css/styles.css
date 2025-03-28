@@ -2,13 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padiding: 0 20px;
+    padding:auto;
     background: var(--white);
     width: 1440px;
     height: 72px;
 }
 .logo {
-    font-family: "Raleway", sans-serif;
+    font-family:"Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -94,7 +94,6 @@ head{
 .h1 {
     font-weight: 700;
     font-size: 56px;
-    /* line-height: 60px; */
     line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
@@ -213,5 +212,5 @@ text-align:center;
     align-items: center;
     justify-items: auto;
     flex-direction: column;
-    
+
 }
