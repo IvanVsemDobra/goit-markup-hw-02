@@ -1,4 +1,13 @@
-/*.logo {
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padiding: 0 20px;
+    background: var(--white);
+    width: 1440px;
+    height: 72px;
+}
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -13,7 +22,7 @@
     gap: 0px;
     width: 115px;
     height: 24px;
-}*/
+}
 .Web {
     font-weight: 700;
     font-size: 18px;
@@ -23,7 +32,7 @@
     color: var(--iris);
 }
 
-.Web.link: hover,
+.Web.link:hover,
 .link:focus {
     color: #404bbf;
     letter-spacing: 0.02em;
@@ -38,7 +47,10 @@
     text-transform: uppercase;
     color: var(--navy-blue);
 }
-.menu {
+.nav {
+    font-family: "Roboto", sans-serif;
+    width: 1440px;
+    height: 72px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -55,11 +67,31 @@ body {
 }
 
 head{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
     background-color: var(--navy-blue);
     width: 1440px;
     height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 20px;
+    padding-top: 188px;
+    padding: bottom 292px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: none;
+    bottom: none;   
 }
-.h1{
+.h1 {
     font-weight: 700;
     font-size: 56px;
     /* line-height: 60px; */
@@ -68,16 +100,63 @@ head{
     text-align: center;
     color: var(--white);
 }
-.bootton
-border-radius: 4px;
-padding: 16px 32px;
-width: 169px;
-height: 56px;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-background: var(--iris);
+.bootton{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: var(--iris);
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+}
+.bootton,
+.link:hover,
+.link:focus {
+    color: var(--iris);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: var(--iris);
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
 
+.studio {
+    width: 1128px;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 156px;
+    padding-right: 156px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .section-title {
-
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
 }
 h3{ 
 font-weight: 500;
@@ -96,26 +175,43 @@ letter-spacing: 0.02em;
 color: var(--slate);
 text-align:center;
 }
-
-
-.nav {
-    font-family: "Roboto", sans-serif;
+.OurTeam {
     width: 1440px;
-    height: 72px;
+    height: 732px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 232px;
+    padding-bottom: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: var(--white);
+    border-radius: none;
+    margin: auto;   
 }
-.bootton,
-.link:hover,
-.link:focus {
-    color: var(--iris);
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--white);
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: var(--iris);
+
+.OurPortfolio {
+    width: 1128px;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: auto;
+
 }
+
 .social-links .link:hover {
     color: tomato;
+}
+.footer {
+    width: 1440px;
+    height: 312px;
+    display: flex;
+    align-items: center;
+    justify-items: auto;
+    flex-direction: column;
+    
 }
