@@ -4,7 +4,7 @@
 }
 .header {
     font-weight:500;
-    background: var(--navy-blue);
+    background: #fff;
     text-transform:uppercase;
 }
 .logo {
@@ -13,7 +13,7 @@
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #4d5ae5;
+    color: #2e2f42;
     text-transform:uppercase
    
 }
@@ -21,17 +21,16 @@
 
 .Web.link:hover,
 .link:focus {
-    color: #404bbf;
     letter-spacing: 0.02em;
 }
 
 .span {
     font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--iris);
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 .nav {
     font-family: "Roboto", sans-serif;
@@ -41,15 +40,14 @@
     font-size: 56px;
     line-height: 1.07143;
     letter-spacing: 0.02em;
-    color: var(--white);
+    color:#fff;
 }
 .bootton{
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--white);
-    background: var(--iris);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color:#fff;
  
 }
 .bootton,
@@ -60,44 +58,37 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--white);
-    background: var(--iris);
+    color:#fff;
+    background:#4d5ae5;;
     
 }
 
 
 .section-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+    
+.h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
-}
-h3{ 
-font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
 .section-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--slate);
-}
-.OurTeam {
-    background: var(--white);  
+    font-weight:400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
 }
 
-.OurPortfolio {
-   
-   
-
-}
 
 .social-links .link:hover {
     color: tomato;
