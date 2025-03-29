@@ -1,8 +1,12 @@
+.body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
 .header {
     
-    background: var(--white);
-    width: 1440px;
-    height: 72px;
+    background: var(--navy-blue);
+   
 }
 .logo {
     font-family:"Raleway", sans-serif;
@@ -10,18 +14,10 @@
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4d5ae5;
    
 }
-.Web {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris);
-}
+
 
 .Web.link:hover,
 .link:focus {
@@ -36,32 +32,11 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    color: var(--navy-blue);
+    color: var(--iris);
 }
 .nav {
     font-family: "Roboto", sans-serif;
-    width: 1440px;
-    height: 72px;
-   
-
-body {
-    font-family:"Roboto", sans-serif;
-    color:#434455;
-    background: #FFFFFF;
-}
-
-head{
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 56px;
-    box-sizing: border-box;
-    line-height: 1.07143;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: var(--white);
-    background-color: var(--navy-blue);
-   
-}
+} 
 .h1 {
     font-weight: 700;
     font-size: 56px;
@@ -95,19 +70,7 @@ head{
     
 }
 
-.studio {
-    width: 1128px;
-    height: 104px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 156px;
-    padding-right: 156px;
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+
 .section-title {
     font-weight: 500;
     font-size: 20px;
@@ -133,22 +96,13 @@ color: var(--slate);
 text-align:center;
 }
 .OurTeam {
-    width: 1440px;
-    height: 732px;
    
-    padding-top: 232px;
-    padding-bottom: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: var(--white);
-    border-radius: none;
-    margin: auto;   
+    background: var(--white);  
 }
 
 .OurPortfolio {
-    width: 1128px;
-    height: 1000px;
+   
    
 
 }
@@ -157,8 +111,6 @@ text-align:center;
     color: tomato;
 }
 .footer {
-    width: 1440px;
-    height: 312px;
-   
+    
 
 }
