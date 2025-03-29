@@ -1,11 +1,15 @@
+
 .body {
     font-family:"Raleway", sans-serif;
-
+    color: #f4f4fd;
+    background: #fff;
 }
 .header {
-    font-weight:500;
-    background: #fff;
+    font-weight: 700;
+    font-size: 56px;
+    background:#2e2f42;
     text-transform:uppercase;
+    color: #2e2f42;
 }
 .logo {
     font-family:"Raleway", sans-serif;
