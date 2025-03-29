@@ -1,8 +1,5 @@
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding:auto;
+    
     background: var(--white);
     width: 1440px;
     height: 72px;
@@ -15,13 +12,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 0px;
-    width: 115px;
-    height: 24px;
+   
 }
 .Web {
     font-weight: 700;
@@ -51,14 +42,7 @@
     font-family: "Roboto", sans-serif;
     width: 1440px;
     height: 72px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 40px;
-    width: 261px;
-    height: 24px;
-}
+   
 
 body {
     font-family:"Roboto", sans-serif;
@@ -70,26 +54,13 @@ head{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
+    box-sizing: border-box;
     line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
     background-color: var(--navy-blue);
-    width: 1440px;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-    padding: 0px 20px;
-    padding-top: 188px;
-    padding: bottom 292px;
-    margin: 0 auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border-radius: none;
-    bottom: none;   
+   
 }
 .h1 {
     font-weight: 700;
@@ -107,15 +78,7 @@ head{
     color: var(--white);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--iris);
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
+ 
 }
 .bootton,
 .link:hover,
@@ -129,18 +92,13 @@ head{
     color: var(--white);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--iris);
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    
 }
 
 .studio {
     width: 1128px;
     height: 104px;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,10 +135,7 @@ text-align:center;
 .OurTeam {
     width: 1440px;
     height: 732px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+   
     padding-top: 232px;
     padding-bottom: 120px;
     padding-left: 156px;
@@ -194,11 +149,7 @@ text-align:center;
 .OurPortfolio {
     width: 1128px;
     height: 1000px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: auto;
+   
 
 }
 
@@ -208,9 +159,6 @@ text-align:center;
 .footer {
     width: 1440px;
     height: 312px;
-    display: flex;
-    align-items: center;
-    justify-items: auto;
-    flex-direction: column;
+   
 
 }
