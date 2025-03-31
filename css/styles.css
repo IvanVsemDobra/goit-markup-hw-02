@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     background: #fff;
-    
+    color:#434455;
     }
 
 header {
@@ -9,7 +9,7 @@ header {
     font-size: 56px;
     background:#2e2f42;
     text-transform:uppercase;
-    color: #2e2f42;
+    color:#2e2f42;
 }
 .logo {
     font-family:"Raleway", sans-serif;
@@ -17,7 +17,7 @@ header {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #2e2f42;
+    color:#2e2f42;
     text-transform:uppercase
 }
 
@@ -35,10 +35,9 @@ header {
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color:#4d5ae5;
 }
 .navigation {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -54,25 +53,24 @@ h1 {
 }
 .bootton{
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color:#fff;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
  
 }
 .bootton,
 .link:hover,
 .link:focus {
-    color: var(--iris);
+    color:#4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background: #4d5ae5;
+    background:#4d5ae5;
 }
 
-section 1 {
-    font-family: "Roboto", sans-serif;
+.section 1 {
     background: #fff;
     font-weight: 400;
     font-size: 16px;
@@ -82,27 +80,24 @@ section 1 {
 }
    
 .portfolio {
-    font-family: "Roboto",
-        sans-serif;
     background: #fff;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color:#2e2f42;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color:#434455;
 }
 .section-title {
     font-weight: 700;
         font-size: 36px;
         line-height: 1.11111;
         letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
+        color:#2e2f42;
 }
     
 h3 {
@@ -110,7 +105,7 @@ h3 {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color:#2e2f42;
 }
 
 .section-text {
@@ -123,17 +118,15 @@ h3 {
 
 footer {
     background:#2e2f42;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+    color:#fff;
 }
 .contacts {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color:#434455;
 }
 .social-links .link:hover {
-    color: tomato;
+    color:tomato;
 }
