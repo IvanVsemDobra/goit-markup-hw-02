@@ -9,7 +9,7 @@ header {
     font-size: 56px;
     background:#fff;
     text-transform:uppercase;
-    color:#4d5ae5
+    color:#2e2f42;
 }
 .logo {
     font-family:"Raleway", sans-serif;
@@ -21,14 +21,7 @@ header {
     text-transform:uppercase
 }
 
-.logo-1 {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color:#4d5ae5;
-}
+
 
 .span {
     font-family: "Raleway",
@@ -40,17 +33,14 @@ header {
     text-transform: uppercase;
     color:#2e2f42;
 }
-.span-1 {
-    font-family: "Raleway",
-        sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #f4f4fd;
-}
 
+/*.link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}*/
 
 .contacts {
     font-weight: 400;
@@ -142,7 +132,24 @@ footer {
     background:#2e2f42;
     color:#fff;
 }
-
+.logo-1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.span-1 {
+    font-family: "Raleway",
+        sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
 .bootton,.logo-link,.contacts-links,
 .link:hover,
 .link:focus {
@@ -151,4 +158,4 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #404bbf
-
+}
