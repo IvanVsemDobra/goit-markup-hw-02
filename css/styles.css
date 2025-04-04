@@ -5,15 +5,26 @@ body {
     }
 
 header {
-    Family: Roboto;
+    Family: "Roboto",
+        sans-serif;
     Weight: Medium Size: 20px;
     letter-spacing:2%;
     color:#2e2f42;
 }
-.Header-logo {
+
+.heder-span {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+.Header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -30,8 +41,19 @@ header {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.heder-nav-item:first-child{
+    color: #434455;
+}
+.heder-nav-item:first-child:hover,
+:focus {
+    color: #404bbf
+}
+.heder-nav-item:hover,
+:focus {
+    color: #404bbf;
+}
 .heder-list-address {
-
+    font-style: normal;
 }
 .heder-address-item {
     font-family: "Roboto", sans-serif;
