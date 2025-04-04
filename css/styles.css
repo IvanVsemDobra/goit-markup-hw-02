@@ -67,7 +67,7 @@ header {
     color: var(--navy-blue);
 }
 .Header-logo {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
