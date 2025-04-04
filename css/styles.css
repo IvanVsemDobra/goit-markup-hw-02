@@ -239,8 +239,8 @@ header {
     text-transform: uppercase;
     color: var(--iris);
 }
-.span-footerr {
-    font-weight: 700;
+.footer-span {
+        font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
