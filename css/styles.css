@@ -63,6 +63,7 @@ header {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 .section-hero {
     background-color:#2e2f42;
 }
@@ -74,9 +75,13 @@ header {
     letter-spacing: 0.04em;
     color: #ffffff;
 }
-.button:hover,:focus {
+.button:hover,
+:focus {
     color: #404BBF;
     cursor: pointer;
+}
+.section-hero-title {
+
 }
 .section-1 {
 
@@ -99,7 +104,8 @@ header {
 
 }
 .section-1-text {
-
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .section-team {
     background-color: #F4F4FD;
