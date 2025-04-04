@@ -67,6 +67,9 @@ header {
 .section-hero {
     background-color:#2e2f42;
 }
+.section-hero-h1 {
+
+}
 .button {
     background-color: #4D5AE5;
     font-weight: 500;
@@ -79,7 +82,9 @@ header {
 :focus {
     color: #404BBF;
     cursor: pointer;
-}
+    color: #ffffff;
+    }
+
 .section-hero-title {
 
 }
