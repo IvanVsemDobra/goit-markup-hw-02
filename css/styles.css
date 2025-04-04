@@ -21,6 +21,34 @@ body {
     background: var(--white);
     color:var(--slate);
     }
+h1 {
+    font-family: var(--font-family);
+    text-transform: capitalize;
+    font-size: 56px;
+    line-height: 1.07143;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white);
+}
+
+h2 {
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+}
+
+h3 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
 
 header {
     Family: var(--font-family);
@@ -121,8 +149,6 @@ header {
     color: var(--white);
     background-color: var(--ocean);
  }
-
-
 .section-1 {
 
 }
@@ -137,16 +163,21 @@ header {
 .section-1-item {
 
 }
+.section-hero h3 {
+    
+}
 .section-1-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .section-team {
     background-color: var(--cloud);
-    background-color: #FFFFFF;
+}
+.title {
+    text-transform: capitalize;
 }
 .section-team-list {
-
+    background-color: #FFFFFF;
 }
 .section-team-h3 {
 
@@ -170,9 +201,13 @@ header {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
+    text-transform: capitalize;
 }
 .section-portfolio-list {
     background-color: var(--white);
+}
+.section-portfolio-h3 {
+
 }
 .section-portfolio-item {
 
@@ -203,38 +238,12 @@ header {
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: var(--cloud);
-
+    text-transform: uppercase;
 }
 .footer-text {
+    letter-spacing: 0.02em;
+    line-height: 1.5;
     color: var(--cloud);
-    letter-spacing: 0.02em;
-    line-height: 1.5
 }
-h1 {
-    font-family: var(--font-family);
-    text-transform: capitalize;
-    font-size: 56px;
-    line-height:1.07143;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color:var(--white);
-}
-h2 {
-    font-family: var(--font-family);
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: var(--navy-blue);
-}
-h3 {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
-}
+
