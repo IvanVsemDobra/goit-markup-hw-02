@@ -27,6 +27,7 @@ header {
     Weight: Medium Size: 20px;
     letter-spacing:2%;
     color: var(--navy-blue);
+    background: var(--white);
 }
 
 .heder-span {
@@ -58,20 +59,16 @@ header {
     letter-spacing: 0.02em;
     color: var(--navy-blue);
     text-decoration: none;
+
 }
-.heder-nav-item:first-child{
-    color: var(--slate);
-}
-.heder-nav-item:first-child:hover {
+.heder-nav-item:hover {
     color: var(--ocean);
 }
-.heder-nav-item:first-child:focus {
+.heder-nav-item:focus {
     color: var(--ocean);
 }
-.heder-nav-item:hover,
-:focus {
-    color: var(--ocean);
-}
+
+
 .heder-list-address {
     font-style: normal;
 }
@@ -84,12 +81,26 @@ header {
     color: var(--slate);
     text-decoration: none;
 }
-
+.heder-address-item:hover {
+    color: var(--ocean);
+}
+.heder-address-item:focus {
+    color: var(--ocean);
+}
 .section-hero {
     background-color:var(--navy-blue);
 }
 .section-hero-h1 {
-
+    line-height: 1.07;
+}
+.heder-span {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navy-blue);
 }
 .button {
     font-family: var(--font-family);
@@ -101,32 +112,24 @@ header {
     color:var(--white);
 }
 .button:hover {
-    color: var(--ocean);
     cursor: pointer;
     color: var(--white);
+    background-color: var(--ocean);
  }
  .button:focus {
-    color: var(--ocean);
     cursor: pointer;
     color: var(--white);
+    background-color: var(--ocean);
  }
 
-.section-hero-title {
 
-}
 .section-1 {
 
 }
+.section-hero-title {
 
-.heder-span {
-    font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--navy-blue);
 }
+
 .section-1-list {
     text-decoration: none;
 
@@ -140,8 +143,12 @@ header {
 }
 .section-team {
     background-color: var(--cloud);
+    background-color: #FFFFFF;
 }
 .section-team-list {
+
+}
+.section-team-h3 {
 
 }
 .section-team-list-iteam {
@@ -154,6 +161,15 @@ header {
 }
 .section-portfolio {
     background-color: var(--cloud);
+}
+.section-portfolio-title {
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
 }
 .section-portfolio-list {
     background-color: var(--white);
@@ -177,7 +193,7 @@ header {
 .footer-logo {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
@@ -188,7 +204,7 @@ header {
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--cloud)
+    color: var(--cloud);
 
 }
 .footer-text {
@@ -198,6 +214,7 @@ header {
 }
 h1 {
     font-family: var(--font-family);
+    text-transform: capitalize;
     font-size: 56px;
     line-height:1.07143;
     text-align: center;
@@ -206,8 +223,9 @@ h1 {
 }
 h2 {
     font-family: var(--font-family);
+    font-size: 36px;
     font-weight: 700;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
