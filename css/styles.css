@@ -140,15 +140,15 @@ header {
     color:var(--white);
     cursor: pointer;
 }
-.button :hover {
+.button:hover {
     cursor: pointer;
     color: var(--white);
-    background-color: var(--ocean);
+    background-color:var(--ocean);
  }
- .button :focus {
+ .button:focus {
     cursor: pointer;
     color: var(--white);
-    background-color: var(--ocean);
+    background-color:var(--ocean);
  }
 .section {
 
