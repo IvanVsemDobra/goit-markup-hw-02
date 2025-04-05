@@ -88,6 +88,12 @@ header {
     color: var(--navy-blue);
     text-decoration: none;    
 }
+.heder-nav-itemactive :hover {
+    color: var(--ocean);
+}
+.heder-nav-itemactive :focus {
+    color: var(--ocean);
+}
 .heder-nav-item {
     font-family: var(--font-family);
     font-weight: 500;
@@ -110,6 +116,14 @@ header {
 
 .heder-list-address {
     
+}
+.heder-address-itemitem {
+    font-family: var(--font-family) font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    text-decoration: none;
 }
 .heder-address-item {
     font-family: var(--font-family)
