@@ -138,6 +138,7 @@ header {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color:var(--white);
+    cursor: pointer;
 }
 .button :hover {
     cursor: pointer;
@@ -189,7 +190,7 @@ header {
 
 }
 .section-team-list-iteam {
-
+    background-color: #FFFFFF;
 }
 .section-team-text {
     line-height: 1.5;
