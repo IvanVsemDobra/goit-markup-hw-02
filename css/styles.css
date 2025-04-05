@@ -122,8 +122,14 @@ header {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color:var(--slate);
     text-decoration: none;
+}
+.heder-address-itemitem :hover{
+    color: var(--ocean);
+}
+.heder-address-itemitem :focus {
+    color: var(--ocean);
 }
 .heder-address-item {
     font-family: var(--font-family)
