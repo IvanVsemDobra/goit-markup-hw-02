@@ -94,6 +94,9 @@ header {
 .heder-nav-itemactive :focus {
     color: var(--ocean);
 }
+.heder-link {
+    color: var(--navy-blue);
+}
 .heder-nav-item {
     font-family: var(--font-family);
     font-weight: 500;
@@ -116,6 +119,9 @@ header {
 
 .heder-list-address {
     
+}
+.address-link {
+    color: var(--slate);
 }
 .heder-address-itemitem {
     font-family: var(--font-family);
