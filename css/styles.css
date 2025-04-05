@@ -15,7 +15,12 @@
         --white: #fff;
         --dairy: #fcfcfc;
     }
-
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
 body {
     font-family: var(--font-family);
     background: var(--white);
