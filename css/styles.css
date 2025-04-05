@@ -79,6 +79,15 @@ header {
 .heder-list-nav{
 
 }
+.heder-nav-itemactive {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    text-decoration: none;    
+}
 .heder-nav-item {
     font-family: var(--font-family);
     font-weight: 500;
@@ -95,10 +104,12 @@ header {
 .heder-nav-item :focus {
     color: var(--ocean);
 }
-
+.heder-address {
+    font-style: normal;
+}
 
 .heder-list-address {
-    font-style: normal;
+    
 }
 .heder-address-item {
     font-family: var(--font-family)
@@ -106,7 +117,7 @@ header {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color:var(--slate);
     text-decoration: none;
 }
 .heder-address-item :hover {
